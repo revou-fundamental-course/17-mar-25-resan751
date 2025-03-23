@@ -19,9 +19,92 @@
             <header>
                 <h1>Welcome To Catic</h1>
             </header>
+           <div class="head">
             <p>hallo, selamat datang di Catic</p>
+           </div>
+           <div class="link">
+            <button class="luas" id="btnLuas">Luas Persegi</button>
+            <button class="keliling" id="btnKeliling">Keliling Persegi</button>
+           </div>
+           <div class="main-content">
+                <section id="luas">
+                    <header class=content-head>
+                        <p>Hitung Luas Persegi</p>
+                    </header>
+                    <div class="content">
+                        <div class="img">
+                            <img src="assets/persegi.webp" alt="gambar persegi">
+                        </div>
+                        <div class="rumus">
+                            <div class="rumus-txt">
+                                <p>Rumus luas persegi yaitu</p>
+                            </div>
+                            <div class="txt-rumus">
+                                <p>L = S x S</p>
+                            </div>
+                            <div class="rumus-txt">
+                                <p>Di mana:</p>
+                            </div>
+                            <div class="rumus-txt">
+                                <p>L = Luas</p>
+                            </div>
+                            <div class="rumus-txt">
+                                <p>S = Sisi</p>
+                            </div>
+                        </div>
+                        <hr class="garis">
+                        <div class="input-txt">
+                            <p>Input nilai sisi dari luas persegi</p>
+                            <input type="number" name="sisi" id="" placeholder="Sisi">
+                        </div>
+                        <div class="btn">
+                            <button type="reset" class="reset">Reset <i class='bx bx-trash'></i></button>
+                            <button type="submit" class="submit">Hitung <i class='bx bx-plus'></i></button>
+                        </div>
+                    </div>    
+                </section>
+
+                <section id="keliling">
+                    <header class=content-head>
+                        <p>Hitung keliling Persegi</p>
+                    </header>
+                    <div class="content">
+                        <div class="img">
+                            <img src="assets/persegi.webp" alt="gambar persegi">
+                        </div>
+                        <div class="rumus">
+                            <div class="rumus-txt">
+                                <p>Rumus keliling persegi yaitu</p>
+                            </div>
+                            <div class="txt-rumus">
+                                <p>L = 4 x S</p>
+                            </div>
+                            <div class="rumus-txt">
+                                <p>Di mana:</p>
+                            </div>
+                            <div class="rumus-txt">
+                                <p>L = Luas</p>
+                            </div>
+                            <div class="rumus-txt">
+                                <p>S = Sisi</p>
+                            </div>
+                        </div>
+                        <hr class="garis">
+                        <div class="input-txt">
+                            <p>Input nilai sisi dari keliling persegi</p>
+                            <input type="number" name="sisi" id="" placeholder="Sisi">
+                        </div>
+                        <div class="btn">
+                            <button type="reset" class="reset">Reset <i class='bx bx-trash'></i></button>
+                            <button type="submit" class="submit">Hitung <i class='bx bx-plus'></i></button>
+                        </div>
+                    </div>    
+                </section>
+           </div>
         </div>
     </main>
     <footer></footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
